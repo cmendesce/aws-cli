@@ -5,12 +5,12 @@ Containerized AWS CLI on alpine to avoid requiring the aws cli to be installed o
 ## Build
 
 ```
-docker build -t mesosphere/aws-cli .
+docker build -t mesosphere/aws-cli-node .
 ```
 
 Automated build on Docker Hub
 
-[![DockerHub Badge](http://dockeri.co/image/mesosphere/aws-cli)](https://hub.docker.com/r/mesosphere/aws-cli/)
+[![DockerHub Badge](http://dockeri.co/image/cmendes/aws-cli-node)](https://hub.docker.com/r/cmendes/aws-cli-node/)
 
 ## Usage
 
