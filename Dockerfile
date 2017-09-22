@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM node:8.5-alpine
 RUN apk -v --update add \
         python \
         py-pip \
